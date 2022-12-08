@@ -1,0 +1,45 @@
+:root {
+  font-size: 62.5%;  /*=> 16px*/
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+  --perfil-circle: #00ff00;
+  --text-tech-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ body {
+  height: 100vh;
+  background: var(--body-bg-color);
+  color: var(--text-color);
+  font: 400 1.6rem/1  'Merriweather Sans', sans-serif;
+}
+
+body #container-content {
+  width: 90%;
+  margin: 2.6rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#container-content img {
+  width: 128px
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+footer span {
+  margin-bottom: 4rem 
+}
